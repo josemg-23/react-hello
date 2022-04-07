@@ -12,7 +12,7 @@ const Home = () => {
 		<div>
 			<Nav></Nav>
 			<Jum></Jum>
-			<div className="album py-5 bg-light">
+			<div className="row">
 				<Card></Card>
 				<Card></Card>
 				<Card></Card>
