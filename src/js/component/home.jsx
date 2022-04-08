@@ -13,10 +13,18 @@ const Home = () => {
 			<Nav></Nav>
 			<Jum></Jum>
 			<div className="row">
-				<Card></Card>
-				<Card></Card>
-				<Card></Card>
-				<Card></Card>
+				<div className="col-lg-3">
+					<Card></Card>
+				</div>
+				<div className="col-lg-3">
+					<Card></Card>
+				</div>
+				<div className="col-lg-3">
+					<Card></Card>
+				</div>
+				<div className="col-lg-3">
+					<Card></Card>
+				</div>
 			</div>
 
 			{/* <h1 className="text-center mt-5">Hello Rigo!</h1>
